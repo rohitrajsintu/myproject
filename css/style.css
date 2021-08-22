@@ -1,0 +1,212 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* header */
+.header-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+/* navigation starts */
+.nav h4{
+    float: left;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.nav h5{
+    float: right;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.nav .light-text{
+    font-weight: 300;
+    font-size: 12px;
+}
+.nav span{
+    padding: 10px;
+}
+/* navigation end */
+
+/* banner starts */
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+.banner-text hr{
+    width:50% ;
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+.banner-text h1{
+    font-weight: 300;
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+
+/* banner ends */
+
+/* two-section starts */
+
+.full-wrapper{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #dfdfdf;
+}
+.full-wrapper .fixed-width{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 45px;
+}
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 45px;
+}
+.two-section img{
+    width: 100%;
+}
+.two-section h6{
+    letter-spacing: 3px;
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.two-section hr{
+    width: 45%;
+    /* color: grey;
+    margin: 0 auto;
+    height: 0.5px; */
+}
+
+.two-section h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.align-left{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 15px;
+    color: grey;
+}
+.two-section button{
+    width: 130px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    border: 1px solid grey;
+    
+}
+/* two-section end */
+
+/* quote starts */
+.full-quote{
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+.full-quote p, .four-images-section p{
+    letter-spacing: 4px;
+    font-size: 13px;
+    position: relative;
+    top: 20px
+}
+.full-quote hr, .four-images-section hr{
+    width: 35%;
+    position: relative;
+    top: 20px
+}
+.full-quote h5, .four-images-section h5{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+    position: relative;
+    top: 20px
+}
+/* quotes end */
+
+/* four images starts */
+.four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+
+}
+.four-images .left{
+    margin-left: 5%;
+}
+/* four images end */
+
+/* footer starts here */
+.footer-full{
+    background-color: black;
+    color: grey;
+}
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .fa{
+    size: 20px;
+    padding: 10px;
+}
+.footer-full hr{
+    width: 35%;
+}
+.footer-full p{
+    text-align: center;
+}
+/* media quary starts */
+@media only screen and (max-width:850px) {
+    .banner-text h1{
+        font-size:50px ;
+    }
+    .two-section .fixed-width .left{
+        width: 100%; 
+        padding-bottom: 45px;
+    }
+    .two-section .fixed-width .right{
+        width: 100%; 
+        padding-bottom: 45px;
+    }
+    .four-images img{
+        width: 100%;
+        clear: both;
+        /* margin-top: 5%; */
+    }
+    .four-images .left{
+        margin-left: 0;
+    }
+}
